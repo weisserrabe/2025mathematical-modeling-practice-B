@@ -1,0 +1,38 @@
+============================================================
+Gold Price Data Statistical Analysis Report
+============================================================
+
+1. Basic Statistics
+------------------------------
+Count: 1716
+Mean: 127.3030
+Median: 121.7950
+Standard Deviation: 17.5225
+Min: 100.5000
+Max: 173.6100
+Range: 73.1100
+Coefficient of Variation: 0.1376
+Skewness: 1.1679
+Kurtosis: 0.2540
+25th Percentile: 116.0475
+75th Percentile: 128.4700
+Interquartile Range: 12.4225
+
+2. Daily Returns Statistics
+------------------------------
+Average Daily Return(%): -0.0087
+Daily Return Std(%): 0.9570
+Annualized Return(%): -2.1978
+Annualized Volatility(%): 15.1924
+Max Daily Gain(%): 7.4633
+Max Daily Loss(%): -8.7808
+Positive Days: 857
+Negative Days: 851
+Win Rate(%): 49.9708
+
+3. Annual Performance Summary
+------------------------------
+Best Year: 2023 (Return: 11.93%)
+Worst Year: 2019 (Return: -26.84%)
+Average Annual Return: -2.83%
+Annual Return Std Dev: 11.97%

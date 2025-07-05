@@ -1,0 +1,40 @@
+{
+  "name": "Portfolio Allocation Strategies",
+  "description": "基于相关性分析的多种投资组合配置策略",
+  "strategies": {
+    "equal_weight": {
+      "Gold": 0.2,
+      "Stocks": 0.2,
+      "Bonds": 0.2,
+      "USD": 0.2,
+      "Oil": 0.2
+    },
+    "correlation_based": {
+      "Gold": 0.4,
+      "Stocks": 0.2,
+      "Bonds": 0.2,
+      "USD": 0.1,
+      "Oil": 0.1
+    },
+    "volatility_adjusted": {
+      "Gold": 0.3453237410071942,
+      "Stocks": 0.14388489208633093,
+      "Bonds": 0.3453237410071942,
+      "USD": 0.1079136690647482,
+      "Oil": 0.05755395683453237
+    },
+    "mean_variance_optimized": {
+      "Gold": 0.30158132530120474,
+      "Stocks": 0.22590361445783128,
+      "Bonds": 0.23719879518072287,
+      "USD": 0.08471385542168673,
+      "Oil": 0.1506024096385542
+    }
+  },
+  "recommendation": "correlation_based",
+  "risk_level": "moderate",
+  "rebalancing_trigger": {
+    "max_deviation": 0.05,
+    "time_interval": "monthly"
+  }
+}

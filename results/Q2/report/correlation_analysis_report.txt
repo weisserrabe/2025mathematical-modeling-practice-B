@@ -1,0 +1,59 @@
+================================================================================
+GOLD PRICE CORRELATION ANALYSIS REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Total factors analyzed: 11
+Strong correlations (|r| > 0.5): 9
+Positive correlations: 6
+Negative correlations: 5
+Statistically significant (p < 0.05): 11
+
+TOP CORRELATIONS
+----------------------------------------
+ 1. Gold_Miners_ETF      | r =  0.9755 | Very Strong  | Significant
+ 2. Platinum_Price       | r =  0.7754 | Very Strong  | Significant
+ 3. USD_Index            | r = -0.7211 | Very Strong  | Significant
+ 4. Oil_Price            | r =  0.7102 | Very Strong  | Significant
+ 5. SP500_Index          | r = -0.6839 | Strong       | Significant
+ 6. Oil_ETF              | r =  0.6349 | Strong       | Significant
+ 7. Silver_Price         | r =  0.6302 | Strong       | Significant
+ 8. Dow_Jones_Index      | r = -0.5880 | Strong       | Significant
+ 9. EUR_USD_Rate         | r =  0.5805 | Strong       | Significant
+10. US_Bonds             | r = -0.4417 | Moderate     | Significant
+
+
+DETAILED CORRELATION RESULTS
+----------------------------------------
+Factor                    Correlation  P-Value    Strength        Direction  Significance   
+----------------------------------------------------------------------------------------------------
+Gold_Miners_ETF           0.9755       0.0000     Very Strong     Positive   Significant    
+Platinum_Price            0.7754       0.0000     Very Strong     Positive   Significant    
+USD_Index                 -0.7211      0.0000     Very Strong     Negative   Significant    
+Oil_Price                 0.7102       0.0000     Very Strong     Positive   Significant    
+SP500_Index               -0.6839      0.0000     Strong          Negative   Significant    
+Oil_ETF                   0.6349       0.0000     Strong          Positive   Significant    
+Silver_Price              0.6302       0.0000     Strong          Positive   Significant    
+Dow_Jones_Index           -0.5880      0.0000     Strong          Negative   Significant    
+EUR_USD_Rate              0.5805       0.0000     Strong          Positive   Significant    
+US_Bonds                  -0.4417      0.0000     Moderate        Negative   Significant    
+Palladium_Price           -0.2137      0.0000     Weak            Negative   Significant    
+
+
+KEY INSIGHTS
+----------------------------------------
+Strongest positive correlation: Gold_Miners_ETF (r = 0.9755)
+Strongest negative correlation: USD_Index (r = -0.7211)
+
+Average correlation magnitude: 0.6323
+Standard deviation of correlations: 0.6722
+
+
+CORRELATION INTERPRETATION
+----------------------------------------
+Very Strong (|r| ≥ 0.7): Variables move almost in perfect sync
+Strong (0.5 ≤ |r| < 0.7): Strong linear relationship
+Moderate (0.3 ≤ |r| < 0.5): Moderate linear relationship
+Weak (0.1 ≤ |r| < 0.3): Weak linear relationship
+Very Weak (|r| < 0.1): Little to no linear relationship

@@ -1,0 +1,53 @@
+{
+  "name": "Multi-Factor Trading Signals",
+  "description": "基于技术指标、基本面因子和预测模型的综合交易信号",
+  "signal_components": {
+    "technical_weight": 0.2,
+    "factor_weight": 0.4,
+    "model_weight": 0.4
+  },
+  "signal_thresholds": {
+    "strong_buy": 0.5,
+    "buy": 0.2,
+    "hold": [
+      -0.2,
+      0.2
+    ],
+    "sell": -0.2,
+    "strong_sell": -0.5
+  },
+  "key_factors": {
+    "GDX_Close": {
+      "weight": 0.4,
+      "correlation": 0.975
+    },
+    "USDI_Price": {
+      "weight": 0.3,
+      "correlation": -0.722
+    },
+    "OF_Price": {
+      "weight": 0.2,
+      "correlation": 0.711
+    },
+    "SP_close": {
+      "weight": 0.1,
+      "correlation": -0.684
+    }
+  },
+  "technical_indicators": {
+    "MA_20": {
+      "period": 20,
+      "weight": 0.4
+    },
+    "MA_60": {
+      "period": 60,
+      "weight": 0.3
+    },
+    "RSI": {
+      "period": 14,
+      "weight": 0.3,
+      "overbought": 70,
+      "oversold": 30
+    }
+  }
+}

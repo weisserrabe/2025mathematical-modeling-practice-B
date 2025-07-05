@@ -1,0 +1,34 @@
+{
+  "name": "Risk Management Framework",
+  "description": "全面的风险管理框架",
+  "position_sizing": {
+    "method": "volatility_adjusted",
+    "max_position": 0.3,
+    "base_volatility": 0.1526,
+    "volatility_scaling": true
+  },
+  "stop_loss": {
+    "method": "percentage",
+    "stop_loss_pct": 0.05,
+    "trailing_stop": true,
+    "adaptive": true
+  },
+  "risk_metrics": {
+    "var_confidence": 0.05,
+    "max_drawdown_limit": 0.15,
+    "correlation_limit": 0.8,
+    "concentration_limit": 0.4
+  },
+  "stress_testing": {
+    "scenarios": [
+      "2008_crisis",
+      "2020_pandemic",
+      "inflation_spike"
+    ],
+    "monte_carlo_runs": 10000,
+    "confidence_intervals": [
+      0.95,
+      0.99
+    ]
+  }
+}

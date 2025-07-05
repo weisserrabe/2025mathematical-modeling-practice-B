@@ -1,0 +1,26 @@
+{
+  "bull_market": {
+    "description": "牛市策略",
+    "preferred_strategy": "aggressive",
+    "position_multiplier": 1.2,
+    "risk_adjustment": 0.9
+  },
+  "bear_market": {
+    "description": "熊市策略",
+    "preferred_strategy": "conservative",
+    "position_multiplier": 0.6,
+    "risk_adjustment": 1.5
+  },
+  "sideways_market": {
+    "description": "震荡市策略",
+    "preferred_strategy": "moderate",
+    "position_multiplier": 1.0,
+    "risk_adjustment": 1.0
+  },
+  "high_volatility": {
+    "description": "高波动策略",
+    "preferred_strategy": "conservative",
+    "position_multiplier": 0.5,
+    "risk_adjustment": 2.0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conservative": {
+    "description": "保守型投资策略",
+    "max_position_size": 0.15,
+    "stop_loss_pct": 0.03,
+    "take_profit_pct": 0.08,
+    "portfolio_allocation": {
+      "Gold": 0.3,
+      "Bonds": 0.4,
+      "Stocks": 0.2,
+      "USD": 0.1,
+      "Oil": 0.0
+    }
+  },
+  "moderate": {
+    "description": "稳健型投资策略",
+    "max_position_size": 0.25,
+    "stop_loss_pct": 0.05,
+    "take_profit_pct": 0.12,
+    "portfolio_allocation": {
+      "Gold": 0.4,
+      "Bonds": 0.2,
+      "Stocks": 0.2,
+      "USD": 0.1,
+      "Oil": 0.1
+    }
+  },
+  "aggressive": {
+    "description": "激进型投资策略",
+    "max_position_size": 0.4,
+    "stop_loss_pct": 0.08,
+    "take_profit_pct": 0.2,
+    "portfolio_allocation": {
+      "Gold": 0.5,
+      "Bonds": 0.1,
+      "Stocks": 0.2,
+      "USD": 0.05,
+      "Oil": 0.15
+    }
+  }
+}
